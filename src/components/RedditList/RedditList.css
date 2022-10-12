@@ -1,0 +1,10 @@
+.RedditList .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.RedditList .row .col {
+  flex-grow: 1;
+  width: calc(100% * (1 / 4) - 10px - 1px);
+}

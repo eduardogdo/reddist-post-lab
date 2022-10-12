@@ -1,0 +1,21 @@
+.SearchForm {
+  margin-bottom: 15px;
+}
+
+.SearchForm input,
+.SearchForm button {
+  height: 48px;
+}
+
+.SearchForm button {
+  background-color: cornflowerblue;
+  color: white;
+  border: 1px solid cornflowerblue;
+  padding: 16px;
+}
+
+.SearchForm input {
+  font-size: 18px;
+  padding: 0 15px;
+  border: 1px solid gray;
+}
